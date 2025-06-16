@@ -1,0 +1,2 @@
+# Dependências do sistema (se necessário)
+# Deixe vazio se não precisar
