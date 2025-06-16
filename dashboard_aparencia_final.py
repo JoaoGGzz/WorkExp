@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 # CSS customizado
-st.markdown(\'\'\'
+st.markdown('''
 <style>
     .main-header {
         font-size: 2.5rem;
@@ -86,7 +86,7 @@ st.markdown(\'\'\'
         margin: 2rem 0;
     }
 </style>
-\'\'\', unsafe_allow_html=True)
+''', unsafe_allow_html=True)
 
 # CAMINHO CORRIGIDO - Para Streamlit Cloud
 ARQUIVO_BASE = "Base_ISN_Comm_Loss_Refinada.xlsx"  # Arquivo na raiz do repositório
